@@ -109,7 +109,7 @@ You can store and define configuration / options for `webpack-serve` in a number
 of different ways. This module leverages [cosmiconfig](https://github.com/davidtheclark/cosmiconfig),
 which allows you to define `webpack-serve` options in the following ways:
 
-- in your package.json file in a `serve` property
+- in your `webpack.config.js` file in a `serve` property
 - in a `.serverc` or `.serverc.json` file, in either JSON or YML.
 - in a `serve.config.js` file which exports a CommonJS module (just like webpack).
 
